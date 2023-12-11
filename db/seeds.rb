@@ -8,7 +8,14 @@
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
 # db/seeds.rb
-5.times do
-    Message.create(content: "Hello, #{Faker::Name.name}!")
-  end
+greetings = [
+    "Goodevening!",
+    "Goodmorning!",
+    "Goodafternoon!",
+    "Hullo!",
+    "Hello uganda.... !!!"
+  ]
   
+  greetings.each do |greeting|
+    Message.create(content: greeting)
+  end
