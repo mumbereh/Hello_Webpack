@@ -13,7 +13,7 @@ greetings = [
     "Goodmorning!",
     "Goodafternoon!",
     "Hullo!",
-    "Hello uganda.... !!!"
+    "Hello uganda....!"
   ]
   
   greetings.each do |greeting|
