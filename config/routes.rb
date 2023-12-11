@@ -1,3 +1,5 @@
+# config/routes.rb
 Rails.application.routes.draw do
-  root 'root#index'
+  root 'random#index'
+  get '/random_greeting', to: 'greetings#random'
 end
