@@ -1,10 +1,10 @@
 # db/seeds.rb
 
 greetings = [
-  "Goodevening!",
-  "Goodmorning!",
-  "Goodafternoon!",
-  "Hullo!",
+  "Hello!",
+  "Hey!",
+  "Hi!",
+  "Hello there!",
   "Hello Uganda....!"
 ]
 
