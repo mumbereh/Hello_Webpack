@@ -1,63 +1,128 @@
-# READM
+<a name="readme-top"></a>
 
-<HEAD
+<div align="center">
+
+<h3><b>React_Rails_Hello_World</b></h3>
+
+</div>
+
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-- [💻 Getting Started](#getting-started))
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
-=======
-* Configuration
 
-* Database creation
-**[Hello World]*This Rails-React app, 'hello-rails-react', features a database-stored greetings table. It provides a random greeting via an API endpoint, displayed in a React component using react-router, with state management through a Redux store.
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 React_Rails_Hello_World <a name="about-project"></a>
+
+**React_Rails_Hello_World:** is a hello world project using rails and react.
+
 ## 🛠 Built With <a name="built-with"></a>
-=======
-* Database initialization
 
-* How to run the test suite
-
-
-* Services (job queues, cache servers, search engines, etc.)
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-<summary>Backend</summary>
+ <summary>Client</summary>
   <ul>
-    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
-    <li><a href="https://www.ror-lang.org/en/">Rails</a></li>
-    <li><a href="https://www.react.org/en/">React</a></li>
-    <li><a href="https://www.webpack.org/en/">WebPack</a></li>
+    <li><a href="https://react.dev/">ReactJS</a></li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
 </details>
 
-## 💻 Getting Started <a name="getting-started"></a>
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 
- 
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **This project was built with ruby & ROR, React & WebPack**
-- **The project code is clear for future use]***
+- **Random Greetings**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To use this project : 
-- `https://github.com/mumbereh/Hello_Webpack.git` to clone the project
-- Make sure that you have ruby & rails  installed on your computer
+To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+- `Ruby`
+- `Rails`
+- `React`
+- `Code editor (VSCode, RubyMine)`
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/prg-04/React_Rails_Hello_World.git
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  cd my-project
+  bundle install
+  npm i
+```
+
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+  npm run build
+  rails s
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  rspec spec
+```
+
+### Deployment
+
+You can deploy this project using your own deployment solution
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Author 1<a name="authors"></a>
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Mumbere Habert**
 - GitHub: [mumbereh](https://github.com/mumbereh)
@@ -66,34 +131,37 @@ To use this project :
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
+- **Test as rails and react as separate apps**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/mumbereh/Hello_Webpack/issues).
+Feel free to check the [issues page](https://github.com/prg-04/React_Rails_Hello_World/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, you can support me by clicking on the start
+If you like this project consider adding a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-I would like to thank my code reviewer and microverse community
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Whould I stop the project at this point?]**
-
-  - No, I plan to create something big. Stay tuned to the next update
+I would like to thank [Microverse](https://bit.ly/MicroverseTN)..
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,7 +169,5 @@ I would like to thank my code reviewer and microverse community
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](MIT.md) licensed.
-
+This project is [MIT](./LICENSE) licensed.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
