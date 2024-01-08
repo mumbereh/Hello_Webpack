@@ -1,15 +1,6 @@
-# README
+# READM
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-<<<<<<< HEAD
+<HEAD
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
@@ -24,22 +15,18 @@ Things you may want to cover:
 - [📝 License](#license)
 =======
 * Configuration
->>>>>>> parent of 69605f1 (Modfied README.md)
 
 * Database creation
-
-<<<<<<< HEAD
 **[Hello World]*This Rails-React app, 'hello-rails-react', features a database-stored greetings table. It provides a random greeting via an API endpoint, displayed in a React component using react-router, with state management through a Redux store.
 ## 🛠 Built With <a name="built-with"></a>
 =======
 * Database initialization
 
 * How to run the test suite
->>>>>>> parent of 69605f1 (Modfied README.md)
+
 
 * Services (job queues, cache servers, search engines, etc.)
 
-<<<<<<< HEAD
 <details>
 <summary>Backend</summary>
   <ul>
@@ -117,8 +104,4 @@ I would like to thank my code reviewer and microverse community
 This project is [MIT](MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-=======
-* Deployment instructions
 
-* ...
->>>>>>> parent of 69605f1 (Modfied README.md)
